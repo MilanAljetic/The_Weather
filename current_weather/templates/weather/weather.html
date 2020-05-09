@@ -5,12 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Weather by City</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+    <style>
+        .title{
+            text-align: center;
+            font-size: 60px;
+        }
+        .img{
+            background:url('https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-size: cover;
+        }
+        #im{
+            background:url('https://images.pexels.com/photos/1028600/pexels-photo-1028600.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-position: 100%;
+            border-style:solid;
+            border-color:azure;
+            border-width: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <section class="hero is-primary">
+<div class="img">
+    <div id="im" class="img">
         <div class="hero-body">
             <div class="container">
                 <h1 class="title">
@@ -18,7 +36,7 @@
                 </h1>
             </div>
         </div>
-    </section>
+    </div>
     <section class="section">
         <div class="container">
             <div class="columns">
@@ -77,8 +95,8 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-    </footer>
+    
+</div>
 </body>
 
 </html>
